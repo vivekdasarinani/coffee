@@ -1,0 +1,545 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+font-family: 'Cormorant Garamond', serif;
+
+    
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+.headerbg{
+    background: url(img/backgroundlogo-1.png);
+    background-size: cover;
+}
+
+
+
+
+.logo{
+display: flex;
+cursor: pointer;
+padding: 10px 1195px;
+color: #000d2c;
+}
+li,a,button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(226, 143, 143);
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+}
+.nav_links li{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    color: #000d2c;
+}
+.nav_links li a{
+    padding: 30px 42px;
+    display: block;
+    
+}
+.nav_links li a{
+    transition: all0.4s ease 0s;
+}
+.nav_links li a:hover{
+    color: cornflowerblue;
+}
+li a:hover:not(.active){
+    height: 40px; 
+}
+.clearfix{
+    clear: both;
+}
+body{
+
+}
+
+
+
+
+/***************nav bar ends******************************/
+
+
+.banner{
+    color: #ffffff;
+    
+    height: 400PX;
+    
+}
+.banner.container{
+    min-width: 1440px;
+    background-color: #fff;
+    margin: 0px auto;
+
+   
+}
+
+.row-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-3 H1{
+font-size: 105PX;
+color: #000d2c;
+}
+.col-3 h2{
+  font-size: 39px;
+  color: #f75a1c;
+}
+.col-3 img{
+
+}
+.col-3 P{
+    font-size: 20PX;
+    color: #000d2c;
+}
+.button {
+    background-color: #9b560b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .designbg{
+    position: relative;
+   
+}
+
+.designbg.left::before{
+   
+content: " ";
+    
+background: url(img/bulebule-2-1.png);
+    
+width: 50%;
+    
+display: block;
+    
+position: absolute;
+    
+left: 0;
+    
+top: 0;
+    
+height: 100%;
+    
+z-index: -1;
+background-position: right center;
+}
+
+
+/***********************banner ends************************************/
+.hotcoffee{
+
+    text-align: center;
+    height: 400px;
+    
+    margin: 5px;
+ }
+ .center{
+     
+     
+     }
+ 
+ .row{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     
+     
+     
+ }
+ .container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+   .flex{
+    display: flex;
+   }
+    
+ .col-2 h2{
+     
+     font-size: 90px;
+     padding: 10px 10px;
+     text-align: center;
+ }
+ .col-2 p{
+    
+ }
+
+  /************coffee day ends*********************************/
+
+  .hotcoffee{
+
+    text-align: center;
+    height: 400px;
+    
+    margin: 5px;
+ }
+ .center{
+     
+     
+     }
+ 
+ .row{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     
+     
+     
+ }
+ .container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+   .flex{
+    display: flex;
+   }
+    
+ .col-2 h2{
+     
+     
+     padding: 10px 10px;
+     text-align: center;
+ }
+ .col-2 p{
+    
+ }
+
+
+   /*************cold coffee ends******************************/
+
+
+   .hotcoffee{
+
+    text-align: center;
+    height: 400px;
+    
+    margin: 5px;
+ }
+ .center{
+     
+     
+     }
+ 
+ .row{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     
+     
+     
+ }
+ .container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+   .flex{
+    display: flex;
+   }
+    
+ .col-2 h2{
+     
+     
+     padding: 10px 10px;
+     text-align: center;
+ }
+ .col-2 p{
+    font-size: 25px;
+    color: #fff;
+
+ }
+ .designbg.right::after{
+    
+    content: " ";
+        
+    background: url(img/BACKBULE2.png);
+        
+    width: 50%;
+        
+    display: block;
+        
+    position: absolute;
+        
+    right: 0;
+        
+    top: 0;
+        
+    height: 100%;
+        
+    z-index: -1;
+    background-position: left center;
+    }
+    
+
+
+   
+   /*************hot coffee******ends*******************************/
+
+   .giftvoucher{
+       border: 8px solid rgb(30, 30, 59);
+   }
+   .container{
+       width: 1440px;
+   }
+
+   .gift{
+       display: flex;
+   }
+   .col-4{
+    text-align: center;
+    margin-top: auto;
+    padding: 70px 10px;
+}
+   .col-5{
+       text-align: center;
+       padding: 70px 0 0 50px;
+   }
+   .col-5 h2{
+       font-size: 105px;
+   }
+
+   .button-1{
+    background-color: #f2b59c;
+    border: none;
+    color: rgb(30, 19, 19);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 46px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+
+/********************gift voucher ******ends*****************************/
+.container{
+    width: 1440px; 
+    margin: 0 auto;
+}
+.aboutus p{
+text-align: center;
+font-size: 25px;
+}
+.box{
+    box-sizing: content-box;
+    background-color: #ccc9c9;
+    display: flex;
+}
+
+
+.aboutus h2{
+font-size: 45px;
+text-align: center;
+}
+
+/****************aboutus ends***************************/
+
+/**************bestclass starts***********************************/*
+
+.container{
+    width: 1400px;
+}
+.ourcustomer{
+    font-size: 35px;
+}
+.ourcustomer{
+    border: 5px solid rgb(44, 44, 66);
+    text-align: center;
+    padding: 15px 32px;
+    margin: 2px;
+  }
+  .felx{
+   display: flex;
+   background-color: #282740;
+   padding: 20px 10px;
+
+    
+  }
+.felx h2{
+    font-size: 45px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+.felx p{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 80px 10px;
+}
+.felx h4{
+    font-size: 29px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/*******************our customer********************************/
+.times h4{
+    text-align: center;
+    font-size: 35px;
+    color: #000d2c;
+}
+.container{
+    width: 1440PX;
+}
+.felx-1{
+    text-align: center;
+    color: #000d2c;
+    font-size: 15PX;
+    border: 4px solid rgb(56, 56, 228);
+
+}
+.box-1 h5{
+    font-size: 29PX;
+    color: #fff;
+}
+.box-1{
+    background-color: #2730e7;
+    margin: 20PX;
+    padding: 15px 32px;
+    
+}
+.box-2{
+    background-color: rgb(19, 72, 196);
+    margin: 20PX;
+    padding: 15px 32px;
+}
+.box-2 h5{
+    font-size: 28PX;
+    color: #fff;
+}
+.box-2 Span{
+    font-size: 28PX;
+    color: #fff;
+}
+.box-1 Span{
+    font-size: 28PX;
+    color: #fff;
+}
+/****************OUR WORKING SECTIONS ENDS*******************************************/
+
+.OurBranches{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 1400px;
+    color: #0d0f0d; ;
+    font-size: 20px; 
+    border-radius: 100%;
+}
+.ourstats{
+    margin: 2PX;
+    margin-bottom: 10px;
+    
+}
+
+.ourworlds{
+display: flex;
+    
+    justify-content: space-between;
+
+
+}
+.box-3{
+    width: 27.3%;
+   height: 500px;
+   display: flex;
+
+   justify-content: space-between;
+   background-color: #233e6a;
+}
+.box-3-mar {
+    margin: 0.5%;
+}
+.texan{
+    background-color: #ff4a00;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.box-3 .imgBox {
+   display: flex;
+} 
+
+.three p{
+    color: #fff;
+
+}
+
+.three{
+    padding: 10px;
+    background-color: #000d2c;
+    margin: 10px;
+    
+}
+
+/********************our branches*******ends****************************************/
+
+/**************footer sections end**********************************************/
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #122340;
+    padding: 60px 0px;
+
+}
+.footer ul{
+    color: #fff;
+}
+.footer li{
+    color: #ffffff;
+}
+.cup{
+    display: flex;
+    width: 50%;
+}
+.cup .left-1{
+    width: 50%;
+}
+.cup .right-1{width: 50%;display: flex;justify-content: space-between;padding: 81px 708px;text-align: center;}
+.tea{
+    display: flex;
+}
+.tea .left{
+    width: 50%
+}
+.tea .right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
